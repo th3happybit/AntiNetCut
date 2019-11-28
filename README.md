@@ -1,12 +1,12 @@
 # AntiNetCut
 
-this script just change the mac address for your interface, when someone using netcut in your network.
+a script just change the mac address for your interface, when someone using netcut in your network.
 
-## requirements
+## Requirements
 
-- macchanger 
+- macchanger
 
-## how to use
+## How to use it
 
 - open the AntiNetCut.sh and set the interface name (myinterface) for example: wlp3s0 and u can get that using : ifconfig command
 - give execute permission to the script: chmod u+x AntiNetCut.sh 
@@ -16,4 +16,3 @@ this script just change the mac address for your interface, when someone using n
 ## Contribute
 
 Contributions are welcome! just pull request!
-
