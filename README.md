@@ -16,3 +16,7 @@ a script just change the mac address for your interface, when someone using netc
 ## Contribute
 
 Contributions are welcome! just pull request!
+
+## License
+
+MIT licensed. See the bundled [License](https://github.com/th3happybit/AntiNetCut/blob/master/LICENSE) file for more details.
