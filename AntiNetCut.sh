@@ -27,13 +27,13 @@ if [ $(which ifconfig) ]
 		alias ip_or_ifconfig="ip link set dev"; 
 	fi;
 
-while sleep 3; 
+while sleep 1; 
 do
 	ping -q -c5 google.com > /dev/null
 	 
 	if [ $? -eq 0 ]
 	then
-		printf "${GREEN}internet!${NC}\n"; exit;
+		printf "${GREEN}internet!${NC}\n";
 	else
 		printf "\n${RED}no internet!${NC}\n"
 		ip_or_ifconfig $myinterface down
