@@ -8,9 +8,10 @@ a script just change the mac address for your interface, when someone using netc
 
 ## How to use it
 
-- open the AntiNetCut.sh and set the interface name (myinterface) for example: wlp3s0 and u can get that using : ifconfig command
 - give execute permission to the script: chmod u+x AntiNetCut.sh 
 - run it: sudo ./AntiNetCut.sh &
+- to set the interface name, run the script with: sudo ./AntiNetCut.sh yourInterface & 
+ (u can get your interface using "ifconfig" or "ip -a" commands. For example: sudo ./AntiNetCut.sh wlp3s0 & )
 - enjoy!
 
 ## Contribute
